@@ -1,7 +1,13 @@
-@import "fonts";
-@import "mixins";
-@import "variables";
-@import "normalise";
-@import "reset";
+// base
+@import "_base/fonts";
+@import "_base/variables";
+@import "_base/mixins";
+@import "_base/reset";
+
+//generals
 @import "generals";
-@import "_blocks/blocks";
+
+// blocks
+@import "_blocks/header";
+@import "_blocks/hero";
+@import "_blocks/footer";
