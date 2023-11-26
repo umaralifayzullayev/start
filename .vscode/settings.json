@@ -12,5 +12,6 @@
       "savePath": "css",
       "savePathReplacementPairs": null
     }
-  ]
+  ],
+  "liveSassCompile.settings.generateMap": false
 }
