@@ -1,0 +1,32 @@
+body {
+  @include body(
+    $color: $main-color,
+    $bg: $main-bg,
+    $font-family: $font-main,
+    $font-weight: $font-weight-main,
+    $font-size: $font-size-main
+  );
+}
+// container
+[class*="conatiner"] {
+  @include container();
+}
+
+.none {
+  display: none;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+

@@ -101,3 +101,36 @@ label {
 legend {
   display: block;
 }
+
+body {
+  color: #000;
+  background-color: #fff;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+[class*=conatiner] {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.none {
+  display: none;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
