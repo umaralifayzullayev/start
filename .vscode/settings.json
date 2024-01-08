@@ -1,12 +1,30 @@
 {
+	// Prettier
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.enable": true,
+	"prettier.printWidth": 10000,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 2,
+	"prettier.singleQuote": true,
+	"prettier.arrowParens": "avoid",
+	// Sass / Scss
 	"liveSassCompile.settings.formats": [
 		{
 			"format": "compressed",
 			"extensionName": ".min.css",
 			"savePath": "css",
+			"generateMap": false,
+			"savePathReplacementPairs": null
+		},
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "css",
+			"generateMap": false,
 			"savePathReplacementPairs": null
 		}
 	],
-	"liveSassCompile.settings.generateMap": false,
-	"liveServer.settings.port": 5501
+	// LiveServer - http://localhost:3000
+	"liveServer.settings.port": 3000,
+	"liveServer.settings.host": "localhost"
 }
